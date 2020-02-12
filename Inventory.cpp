@@ -14,7 +14,9 @@ Inventory::Inventory(string name, float price, int count)
 
 void Inventory::sell()
 {
-  m_in_stock--;
+ std::cout << "Sorry, that item is out of stock";
+
+//  m_in_stock;
 }
 
 ostream& operator<<(ostream& stream, const Inventory& item)
